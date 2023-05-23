@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP4 HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://w0.peakpx.com/wallpaper/768/775/HD-wallpaper-lord-of-the-rings-dwarf-fanart-fantasy-hood-lord-movie-nazgul-of-the-rings-sword.jpg" width="800" height="200" alt="">
+        <h1>Un gros titre</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#article">Blog</a></li>
+                <li><a href="">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form method="POST" action="PHP_fictif">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label for="prenom">Prénom : <span class="obligatoire">*</span></label>
+                    <input type="text" required placeholder="Ex : Gérard" maxlength="20" minlength="2" id="prenom"/>
+                </div>
+                <div>
+                    <label for="mail"> Email : <span class="obligatoire">*</span></label>
+                    <input type="email" required id="mail" placeholder="Ex : Bob@gmail.com"/>
+                </div>
+                <div>
+                    <label for="texte">Veuillez entrer votre commentaire :</label><br>
+                    <textarea rows="10" cols="70" id="texte" placeholder="Ex : Donnez votre avis ici"></textarea>
+                </div>
+                <div>
+                    <label for="check">Voulez-vous envoyer une copie? </label>
+                    <input type="checkbox" id="check" checked>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Réinitialiser">
+                </div>
+            </fieldset>
+        </form>
+        <footer>
+            <ul>
+                <li><a href="None">Un anneau pour les gouverner tous</a></li>
+                <li><a href="None">Un anneau pour les trouver</a></li>
+                <li><a href="None">Un anneau pour les amener tous</a></li>
+                <li><a href="None">Et dans les ténèbres les lier</a></li>
+            </ul>
+        </footer>
+    </section>
+</body>
+</html>

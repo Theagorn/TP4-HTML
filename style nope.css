@@ -1,0 +1,51 @@
+html {
+    width:800px;
+    text-align: center;
+    margin: auto;
+    background-image: url("https://images3.alphacoders.com/706/thumb-1920-706434.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    height: 200px;
+    background-image: url("https://w0.peakpx.com/wallpaper/768/775/HD-wallpaper-lord-of-the-rings-dwarf-fanart-fantasy-hood-lord-movie-nazgul-of-the-rings-sword.jpg");
+    background-position: center top 30%;
+    border:solid darkred;
+    border-radius: 20px;
+    color:white
+}
+
+:visited {
+    color:cyan;
+}
+
+:link {
+    color:white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    border: solid black;
+}
+
+section {
+    margin-top: 30px;
+    border: solid;
+    border-color: gold rgba(0,0,0,0);
+    border-radius: 20px;
+    background: linear-gradient(to bottom, black, rgba(0,0,0,0));
+    padding: 50px;
+    color: white;
+}
+
+section p {
+    text-indent: 50px;  
+    text-align: justify;  
+}
